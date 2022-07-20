@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { BigNumber, Contract, ethers, providers, utils } from "ethers";
 import React, { useEffect, useRef, useState } from "react";
-import Web3Modal from "web3modal";
 import { abi, RANDOM_GAME_CONTRACT_ADDRESS } from "../constants";
 import { FETCH_CREATED_GAME } from "../queries";
 import { subgraphQuery } from "../utils";
